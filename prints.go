@@ -12,4 +12,8 @@ func main() {
     var pi float64 = 3.14159
     fmt.Printf("%f\n", pi)
     fmt.Printf("%.2f\n", pi)
+    fmt.Printf("%T\n", pi); //Pinta el tipo de la variable
+    fmt.Println("true && false = ", true && false)
+    fmt.Println("true || false = ", true || false)
+    fmt.Println("!true =", !true)
 }
